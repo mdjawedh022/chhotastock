@@ -1,0 +1,57 @@
+.text-banner-section{
+    width: 78%;
+    margin:60px auto 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.investment-stock h1{
+    font-size: 50px;
+}
+.investment-stock h1:nth-child(1){
+    color: orange;
+}
+.investment-stock p{
+    font-size: 38px;
+    font-weight: 400;
+    width: 90%;
+    margin-top: 20px;
+    color: rgb(25, 24, 24);
+}
+.investment-stock span{
+    color:rgb(13, 164, 13);
+}
+.inestment-info p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.inestment-info{
+    display: flex;
+    flex-direction: column;
+}
+.inestment-info a{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(60, 58, 58);
+}
+.inestment-info button{
+    padding: 15px;
+    font-size: 20px;
+    width: 25%;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(247, 173, 35);
+    border: none;
+    border-bottom: 3px solid rgb(161, 158, 158);
+    border-radius: 30px;    
+}
+
+.img-banner {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.img-banner img{
+    width: 55%;
+}
