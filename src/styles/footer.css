@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100%;
+    background-color:rgb(14, 24, 39) ;
+    height: 800px;
+}
+.footer-child-sction{
+width: 90%;
+margin:auto;
+padding: 50px 0 0 70px;
+}
+.footer-logosection{
+    display: flex;
+    gap: 20px;
+    
+}
+.website-name{
+    margin-top: -10px;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+.website-name>span{
+    font-weight: 500;
+}
+.contact-info-section{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 45px;
+    
+}
+.contact-info-section h2{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.contact-info-section p{
+    color: rgb(151, 160, 168);
+    padding: 2px 0;
+}
+.contact-info-section img{
+    margin-right: 19px;
+}
+.contact-info-section h2{
+    margin-bottom: 20px;
+}
+.social-media-logo{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin-top: 20px;
+}
+.social-media h2{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.social-media{
+    margin-top: 50px;
+}
+.fb{
+    width:3%;
+    border-radius: 10px;
+}
+.yt{
+    width:3.5%;
+    border-radius: 11px;
+}
+.insta{
+    width: 3%;
+    border-radius: 10px;
+}
+.twit{
+    width: 3%;
+    border-radius: 10px;
+}
+.description{
+    margin-top: 70px;
+    color: rgb(151, 160, 168);
+
+}
