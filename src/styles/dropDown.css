@@ -1,0 +1,25 @@
+.dropdown-section{
+ 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.invest-data{
+    color: rgb(17, 162, 17);
+    font-weight: 400;
+    font-size: 25px;
+}
+.mutual-funds,.indian-equity,.digital-gold,.fixed-deposits,.market-research,.historical-performance{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.dropdown-section h2{
+    font-weight: 500;
+}
+.digital-gold{
+    gap: 62px;
+}

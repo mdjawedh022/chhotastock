@@ -1,0 +1,139 @@
+.top-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0;
+    border-bottom: 2px solid white;
+}
+.top-navbar p:nth-child(1){
+ color: red;
+
+}
+.top-navbar p:nth-child(2){
+    font-weight: 500;
+   
+   }
+.top-navbar p{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    
+}
+.top-navbar p:nth-child(4){
+    color: red;
+   
+   }
+   .top-navbar p:nth-child(5){
+    font-weight: 500;
+   
+   }
+   .top-navbar p:nth-child(7){
+    color: red;
+   
+   }
+   .top-navbar p:nth-child(8){
+font-weight: 500;
+   
+   }
+   .top-navbar p:nth-child(10){
+    color:rgb(41, 171, 41);
+   
+   }
+   .top-navbar p:nth-child(11){
+font-weight: 500;
+   
+   }
+   .top-navbar p:nth-child(13){
+    color: red;
+   
+   }
+.navbar{
+    background-color:rgb(14, 24, 39) ;
+    margin-bottom: 80px;
+}
+
+
+
+.main-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.website-logo-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+  
+}
+
+.website-logo-section div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.website-logo-section h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+.website-logo-section span{
+    font-weight: 500;
+}
+.website-logo-section div:nth-child(2){
+    background-color: rgb(244, 226, 221);
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.website-logo-section div:nth-child(2) div{
+padding: 10px;
+background-color: rgb(248, 98, 43);
+margin-top: 5px;
+}
+.website-logo-section h3{
+color: rgb(248, 98, 43);
+font-size: 23px;
+font-weight: 500;
+cursor: pointer;
+}
+.link-section{
+    display: flex;
+    align-items: center;
+    gap: 70px; 
+}
+.link-section a{
+    margin-top: -10px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+/* ----------------- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   right: 0;
+    /* max-width:1000px; */
+    background-color:white;
+    min-width:1200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 20px;
+   
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .drop:hover{
+text-decoration: underline;
+  }

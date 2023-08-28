@@ -23,6 +23,7 @@ padding: 50px 0 0 70px;
     color: white;
     font-size: 36px;
     font-weight: 400;
+    cursor: pointer;
 }
 .website-name>span{
     font-weight: 500;
@@ -42,9 +43,11 @@ padding: 50px 0 0 70px;
 .contact-info-section p{
     color: rgb(151, 160, 168);
     padding: 2px 0;
+    cursor: pointer;
 }
 .contact-info-section img{
     margin-right: 19px;
+    cursor: pointer;
 }
 .contact-info-section h2{
     margin-bottom: 20px;
@@ -66,16 +69,19 @@ padding: 50px 0 0 70px;
 .fb{
     width:3%;
     border-radius: 10px;
+    cursor: pointer;
 }
 .yt{
     width:3.5%;
     border-radius: 11px;
-}
+    cursor: pointer;}
 .insta{
     width: 3%;
     border-radius: 10px;
+    cursor: pointer;
 }
 .twit{
+    cursor: pointer;
     width: 3%;
     border-radius: 10px;
 }
