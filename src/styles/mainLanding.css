@@ -55,3 +55,48 @@
 .img-banner img{
     width: 55%;
 }
+
+/* ..........................investpe now --------------------- */
+.invest-now-section{
+    width: 85%;
+    height: 600px;
+    margin: 70px auto;
+    border-radius:95px;
+    color: white;
+    background-color:rgb(12, 22, 38) ;
+
+}
+.invest-now-child{
+    width: 85%;
+    margin: auto;
+    display:flex;
+    gap:60px;
+}
+.img-div {
+    padding-top:290px;
+    
+}
+.invest-now-child h1{
+    width: 120%;
+    margin-top: 110px;
+    font-size:50px;
+    font-weight: 500;
+}
+.invest-now-child p{
+    width: 110%;
+    color: rgb(230, 224, 224);
+    margin-top: 40px;
+    font-size: 25px;
+}
+.invest-now-child button{
+    padding: 15px;
+    font-size: 20px;
+    width: 35%;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(247, 173, 35);
+    border: none;
+    border-bottom: 3px solid rgb(161, 158, 158);
+    border-radius: 30px; 
+    margin-top: 50px;
+}
