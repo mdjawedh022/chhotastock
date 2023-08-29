@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import "../styles/mainLanding.css"
 import { Link } from 'react-router-dom'
 import imgbanner from "../Images/banner-1.png"
+import Features from '../Components/Features'
 
 const MainLanding = () => {
   return (
@@ -26,6 +27,10 @@ const MainLanding = () => {
            <div className='img-banner'>
            <img src={imgbanner} alt="" />
            </div>
+        </div>
+        {/* ---------------------feature----------------- */}
+        <div className="features">
+          <Features/>
         </div>
       </div>
     </div>
