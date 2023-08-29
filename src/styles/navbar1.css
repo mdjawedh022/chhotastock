@@ -1,0 +1,128 @@
+.top-navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0;
+    border-bottom: 2px solid white;
+}
+.top-navbar1 p{
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    
+}
+.top-navbar1 p:nth-child(2){
+    font-weight: 500;
+
+}
+
+.top-navbar1 p:nth-child(4){
+    color: red;
+   
+   }
+   .top-navbar1 p:nth-child(5){
+    font-weight: 500;
+   
+   }
+   .top-navbar1 p:nth-child(7){
+    color: red;
+   
+   }
+   .top-navbar1 p:nth-child(8){
+font-weight: 500;
+   
+   }
+   .top-navbar1 p:nth-child(10){
+   color: red;
+   
+   }
+
+   /* .top-navbar1 p:nth-child(){
+    color:rgb(41, 171, 41);
+   
+   } */
+   .top-navbar1 p:nth-child(11){
+font-weight: 500;
+   
+   }
+   .top-navbar1 p:nth-child(13){
+    color: red;
+   
+   }
+   .top-navbar1 p:nth-child(14){
+   font-weight: 500;
+   }
+   .top-navbar1 p:nth-child(16){
+   
+   color: rgb(41,171,41);
+   }
+   .top-navbar1 p:nth-child(17){
+   font-weight: 500;
+   
+   }
+   .top-navbar1 p:nth-child(19){
+   color: red;
+   
+   }
+   .top-navbar1 p:nth-child(20){
+   font-weight: 500;
+   }
+   .top-navbar1 p:nth-child(22){
+   color: rgb(41,171,41);
+   }
+   .top-navbar1 p:nth-child(23){
+   font-weight: 500;
+   }
+   .top-navbar1 p:nth-child(25){
+   color: rgb(41,171,41);
+   }
+
+.navbar-1{
+    background-color:rgb(21, 29, 41) ;
+
+}
+
+.second-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.navb-logo{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+.navb-logo h2{
+    font-size: 35px;
+font-weight: 400;
+}
+.navb-logo span{
+    font-weight: 500;
+}
+.navb-logo p{
+    font-size: 12px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding:7px 10px;
+    border-radius:10px;
+    background-color:rgb(113, 112, 112);
+    color: white;
+    width: 30%;
+   
+}
+.second-navbar button{
+     display: flex;
+     align-items: center;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(247, 173, 35);
+    border: none;
+    border-radius: 30px;   
+}
