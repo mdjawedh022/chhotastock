@@ -61,3 +61,48 @@ background-color:rgb(21, 29, 41) ;
     border-radius: 10px;
 
 }
+/* ----------------------------------- */
+.stock-investing{
+    width: 78%;
+    margin: auto;
+}
+.stock-investing h2{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.stock-investing>p{
+    color: gray;
+    font-size: 25px;
+    margin: 25px 0;
+}
+.value-ev-and-more-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    color:white;
+    margin-bottom: 40px;
+    
+}
+.value-deals{
+    background-color:rgb(33, 37, 40) ;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.value-deals div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.value-deals p{
+    font-weight: 400;
+    color: rgb(198, 194, 194);
+}
+.value-deals span{
+    color: white;
+    font-weight: 600;
+}
