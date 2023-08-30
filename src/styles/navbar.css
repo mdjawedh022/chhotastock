@@ -7,6 +7,7 @@
 }
 .top-navbar p:nth-child(1){
  color: red;
+ 
 
 }
 .top-navbar p:nth-child(2){
@@ -21,7 +22,9 @@
 }
 .top-navbar p:nth-child(4){
     color: red;
-   
+    display: flex;
+    align-items: center;
+    gap: 5px;
    }
    .top-navbar p:nth-child(5){
     font-weight: 500;
@@ -29,7 +32,9 @@
    }
    .top-navbar p:nth-child(7){
     color: red;
-   
+    display: flex;
+    align-items: center;
+    gap: 5px;
    }
    .top-navbar p:nth-child(8){
 font-weight: 500;
@@ -37,7 +42,9 @@ font-weight: 500;
    }
    .top-navbar p:nth-child(10){
     color:rgb(41, 171, 41);
-   
+    display: flex;
+    align-items: center;
+    gap: 5px;
    }
    .top-navbar p:nth-child(11){
 font-weight: 500;
@@ -45,7 +52,9 @@ font-weight: 500;
    }
    .top-navbar p:nth-child(13){
     color: red;
-   
+    display: flex;
+    align-items: center;
+    gap: 5px;
    }
 .navbar{
     background-color:rgb(14, 24, 39) ;

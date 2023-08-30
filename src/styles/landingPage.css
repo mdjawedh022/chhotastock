@@ -15,7 +15,7 @@ background-color:rgb(21, 29, 41) ;
 .landing-banner img{
     margin-top: 40px;
 }
-.invest-now-section{
+.invest-now-section1{
     width: 85%;
     height: 600px;
     margin: 70px auto;
@@ -24,29 +24,52 @@ background-color:rgb(21, 29, 41) ;
     background-color:rgb(12, 22, 38) ;
 
 }
-.invest-now-child{
+.invest-now-child1{
     width: 85%;
     margin: auto;
-    display:flex;
-    gap:60px;
+    display:grid;
+    grid-template-columns: repeat(2,50% 37%);
+    gap: 15%;
 }
 
 
-.invest-now-child h1{
-    width: 120%;
+.invest-now-child1 h1{
+    width: 135%;
     margin-top: 110px;
     font-size:50px;
     font-weight: 500;
 }
-.invest-now-child p{
-    width: 110%;
+.invest-now-child1  span{
+    color:rgb(247, 173, 35);
+}
+.invest-now-child1 p{
+    width: 100%;
     color: rgb(230, 224, 224);
     margin-top: 40px;
     font-size: 25px;
 }
-.invest-now-child button{
+.invest-now-child1 h3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    margin-top: 40px;
+    font-weight: 400;
+    color: rgb(230, 224, 224);
+}
+.get-started-now{
+    display: flex;
+    align-items: center;
+    gap:70px;
+}
+.get-started-now a{
+    font-size: 22px;
+    color: white;
+    margin-top: 35px;
+}
+.invest-now-child1 button{
     padding: 15px;
-    font-size: 20px;
+    font-size: 21px;
     width: 35%;
     cursor: pointer;
     font-weight: 600;
@@ -56,11 +79,22 @@ background-color:rgb(21, 29, 41) ;
     border-radius: 30px; 
     margin-top: 50px;
 }
-.img-div img{
-    width: 100%;
+.img-div1 img:nth-child(1){
+    margin-top:90px;
+    margin-left: 40px;
+    width: 80%;
     border-radius: 10px;
 
 }
+.img-div1 img:nth-child(2){
+    width: 80%;
+    margin-right: 60px;
+    
+    margin-top: -40px;
+    border-radius: 10px;
+
+}
+
 /* ----------------------------------- */
 .stock-investing{
     width: 78%;
