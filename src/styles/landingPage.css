@@ -16,26 +16,25 @@ background-color:rgb(21, 29, 41) ;
     margin-top: 40px;
 }
 .invest-now-section1{
-    width: 85%;
-    height: 600px;
-    margin: 70px auto;
+    width: 86%;
+    height: 650px;
+    margin: 50px auto 80px;
     border-radius:95px;
     color: white;
     background-color:rgb(12, 22, 38) ;
 
 }
 .invest-now-child1{
-    width: 85%;
+    width: 87%;
     margin: auto;
     display:grid;
-    grid-template-columns: repeat(2,50% 37%);
-    gap: 15%;
+    grid-template-columns: repeat(2,55% 37%);
+    gap: 10%;
 }
 
 
 .invest-now-child1 h1{
-    width: 135%;
-    margin-top: 110px;
+    margin-top: 100px;
     font-size:50px;
     font-weight: 500;
 }
@@ -61,6 +60,7 @@ background-color:rgb(21, 29, 41) ;
     display: flex;
     align-items: center;
     gap:70px;
+    margin-bottom:90px;
 }
 .get-started-now a{
     font-size: 22px;
@@ -78,6 +78,7 @@ background-color:rgb(21, 29, 41) ;
     border-bottom: 3px solid rgb(161, 158, 158);
     border-radius: 30px; 
     margin-top: 50px;
+   
 }
 .img-div1 img:nth-child(1){
     margin-top:90px;

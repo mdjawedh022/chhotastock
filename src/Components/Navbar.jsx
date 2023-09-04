@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/navbar.css";
 import logo from "../Images/logo1.png";
 import { Link } from "react-router-dom";
+import {MdOutlineKeyboardArrowDown} from "react-icons/md"
 import {BiSolidDownArrow,BiSolidUpArrow} from "react-icons/bi"
 import DropDown from "./DropDown";
 const Navbar = () => {
@@ -42,7 +43,7 @@ const Navbar = () => {
           {/* ---------------------pages link section----------------- */}
           <div className="link-section">
             <div className="dropdown">
-              <Link className="drop">Products</Link>
+              <Link className="drop">Products <MdOutlineKeyboardArrowDown/></Link>
               {/* --------------------dropdown-------------------- */}
               <div class="dropdown-content">
                <DropDown/>

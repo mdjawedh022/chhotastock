@@ -116,6 +116,9 @@ cursor: pointer;
     gap: 70px; 
 }
 .link-section a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     margin-top: -10px;
     text-decoration: none;
     color: white;

@@ -6,12 +6,14 @@ import imgbanner from "../Images/banner-1.png";
 import Features from "../Components/Features";
 import hand1 from "../Images/hand1.png";
 import Solution from "../Components/Solution";
+import {IoIosArrowDropdownCircle} from "react-icons/io";
 
 const MainLanding = () => {
   return (
     <div>
       <Navbar />
       <div className="main-container">
+        {/* ---------------------------------- */}
         <div className="banner">
           {/* -----------------------text-in-banner-section------------- */}
           <div className="text-banner-section">
@@ -29,7 +31,7 @@ const MainLanding = () => {
                 Launch financial services in a matter of days. Take your pick
                 from our flexible APIs, SDKs, or ready-to-use screens.
               </p>
-              <Link>See our products</Link>
+              <div className="see-our-products"><Link>See our products</Link> <IoIosArrowDropdownCircle fontSize={"30px"} color="gray"/></div>
               <button>Contact Us</button>
             </div>
           </div>
